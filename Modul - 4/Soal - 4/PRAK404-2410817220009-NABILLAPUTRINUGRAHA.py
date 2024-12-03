@@ -6,7 +6,7 @@ def kalkulator():
         print("1. Penjumlahan")
         print("2. Pengurangan")
         print("3. Perkalian")
-        print("4. Perkalian")
+        print("4. Pembagian")
         print("5. Exit")
 
         pilihan = int(input("Masukkan Pilihan :"))
