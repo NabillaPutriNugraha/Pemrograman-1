@@ -15,8 +15,8 @@ int main() {
     int tahunlahir;
     char Namaku[20], Asal[15];
     scanf("%d", &tahunlahir);
-    scanf(" %[^\n]%*c", Namaku);
-    scanf(" %[^\n]%*c", Asal);
+    scanf(" %[^\n]%*c", &Namaku);
+    scanf(" %[^\n]%*c", &Asal);
     printf("\n");
 Biodata(tahunlahir, Namaku, Asal);
 return 0;
